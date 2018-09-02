@@ -10,11 +10,13 @@
 Template from: https://phoenix-startup.com/
 
 ### Run 
+
     * `npm run build-css` to build css from sass
     * `npm start`
     * go to localhost:3000
     
 ##### Gulp Commands
+
     * `gulp main-js`
     * `gulp css`
     * `gulp jade`
@@ -25,12 +27,22 @@ Local server is created using Express.js and HTTP server
 ### Strucure 
 
 bin --> [`www`][www] (local HTTP server setup)
-build --> * (statics version of website)
+
+
+build --> . (statics version of website)
+
+
 controllers --> [`error.js`][error] (error handlers)
-routes --> * (routes to index and error)
-src --> css --> * (scss files)
-    --> public --> * (static public fils: img, js, compiled css)
-    --> templates --> * (jade templates)
+
+
+routes --> . (routes to index and error)
+
+
+src --> css --> . (scss files)
+
+    --> public --> . (static public fils: img, js, compiled css)
+    
+    --> templates --> . (jade templates)
     
 ### ToDO
  * add hot reload for sass 
