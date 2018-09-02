@@ -1,5 +1,5 @@
 // 1.09
-Local development version created using Express. gulpfile and package.json are up to date. Bower components replaced by node modules in main.scss
+Local development version created using Express, Morgan, HTTP server and Node SASS. gulpfile and package.json are up to date. Bower components replaced by node modules.
 
 [new folders & files]: www, routes, controllers, app.js
 
