@@ -6,6 +6,7 @@
 )](http://expressjs.com/fr/)
 [![Gulp](https://img.shields.io/badge/gulp-3.9.1-d4444a.svg?longCache=true&style=flat-square
 )](https://gulpjs.com/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/711addf5449aca60002c/maintainability)](https://codeclimate.com/github/akinariobi/ph-st-template/maintainability)
 
 Template from: https://phoenix-startup.com/
 
