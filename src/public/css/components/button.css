@@ -1,0 +1,165 @@
+.button {
+  font-weight: 700;
+  display: inline-block;
+  min-width: 150px;
+  padding: 0 10px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 42px;
+  font-size: 10px;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease; }
+  .button {
+    text-decoration: none; }
+  .button:hover {
+    color: inherit; }
+  .wf-montserrat-n7-active .button {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .button:hover, .button:focus, .button:active, .button:visited {
+    text-decoration: none; }
+  .button--gray {
+    background-color: #f6f6f6; }
+  .button--black {
+    background-color: #242526;
+    color: white; }
+    .button--black:hover, .button--black:focus, .button--black:active, .button--black:visited {
+      color: white; }
+    .button--black:hover {
+      background-color: rgba(36, 37, 38, 0.8); }
+  .button--white {
+    background-color: white; }
+    .button--white:hover {
+      background-color: #1b8bf9;
+      color: white; }
+  .button--blue {
+    background-color: #1b8bf9;
+    color: white; }
+    .button--blue:hover, .button--blue:focus, .button--blue:active, .button--blue:visited {
+      color: white; }
+    .button--blue:hover {
+      background-color: rgba(27, 139, 249, 0.8); }
+  .button--border-black {
+    border: 1px solid #242526;
+    color: #242526; }
+    .button--border-black:hover {
+      background-color: #242526;
+      color: white; }
+  .button--border-white {
+    border: 1px solid white;
+    color: white; }
+    .button--border-white:hover, .button--border-white:focus, .button--border-white:active, .button--border-white:visited {
+      color: white; }
+    .button--border-white:hover {
+      background-color: white;
+      color: #242526; }
+  .button--border-blue {
+    border: 1px solid #1b8bf9; }
+    .button--border-blue:hover {
+      background-color: #1b8bf9;
+      color: white; }
+  .button--border-fat {
+    border-width: 2px;
+    line-height: 40px; }
+  .button--icon-apple, .button--icon-apple--black {
+    padding-left: 25px;
+    position: relative; }
+    .button--icon-apple:before, .button--icon-apple--black:before, .button--icon-apple:after, .button--icon-apple--black:after {
+      content: '';
+      position: absolute;
+      left: 22px;
+      bottom: 0;
+      top: 0;
+      margin: auto;
+      width: 13px;
+      height: 16px;
+      transition: opacity .4s ease; }
+    .button--icon-apple:before, .button--icon-apple--black:before {
+      background: url(../img/icons/i--apple--white.svg) no-repeat center/13px 16px; }
+    .button--icon-apple:after, .button--icon-apple--black:after {
+      background: url(../img/icons/i--apple--black.svg) no-repeat center/13px 16px; }
+    .button--icon-apple:after, .button--icon-apple--black:after {
+      opacity: 0; }
+    .button--icon-apple.button--border-white:hover:before, .button--border-white.button--icon-apple--black:hover:before, .button--icon-apple.button--white:hover:before, .button--white.button--icon-apple--black:hover:before {
+      opacity: 0; }
+    .button--icon-apple.button--border-white:hover:after, .button--border-white.button--icon-apple--black:hover:after, .button--icon-apple.button--white:hover:after, .button--white.button--icon-apple--black:hover:after {
+      opacity: 1; }
+  .button--icon-apple--black:before {
+    background: url(../img/icons/i--apple--black.svg) no-repeat center/13px 16px; }
+  .button--icon-apple--black:after {
+    background: url(../img/icons/i--apple--white.svg) no-repeat center/13px 16px; }
+  .button--blue-shadow {
+    box-shadow: 4px 6.9px 16px rgba(27, 139, 249, 0.4); }
+    .button--blue-shadow:hover {
+      box-shadow: 4px 6.9px 16px rgba(27, 139, 249, 0.6); }
+  .button--gray-shadow {
+    box-shadow: 4px 6.9px 16px rgba(99, 117, 138, 0.1); }
+    .button--gray-shadow:hover {
+      box-shadow: 4px 6.9px 16px rgba(99, 117, 138, 0.3); }
+  .button--black-shadow {
+    box-shadow: 4px 6.9px 16px rgba(0, 0, 0, 0.2); }
+    .button--black-shadow:hover {
+      box-shadow: 4px 6.9px 16px rgba(0, 0, 0, 0.35); }
+  .button--dark-shadow {
+    box-shadow: 2px 3.5px 20px rgba(50, 65, 87, 0.8); }
+    .button--dark-shadow:hover {
+      box-shadow: 2px 3.5px 20px rgba(50, 65, 87, 0.9); }
+  .button--small-radius {
+    border-radius: 4px; }
+  .button--small {
+    height: 34px;
+    line-height: 31px;
+    min-width: 124px;
+    font-size: 12px; }
+  .button--extra-small {
+    height: 20px;
+    line-height: 20px;
+    min-width: 60px;
+    font-size: 9px; }
+  .button--round {
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    min-width: 42px; }
+  .button--arrow-down {
+    position: relative; }
+    .button--arrow-down:hover {
+      transform: translateY(3px); }
+    .button--arrow-down:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      margin: auto;
+      width: 14px;
+      height: 8px;
+      background: url(../img/icons/i--arrow--white--down.svg) no-repeat center/100% auto; }
+    .button--arrow-down.button--white:before {
+      background: url(../img/icons/i--arrow--black--down.svg) no-repeat center/100% auto; }
+    .button--arrow-down.button--white:hover {
+      background-color: white; }
+  .button--play-icon {
+    position: relative; }
+    .button--play-icon:before {
+      content: '';
+      position: absolute;
+      left: 6px;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      margin: auto;
+      width: 21px;
+      height: 26px;
+      background: url(../img/icons/i--icon-play.svg) no-repeat center/100% auto; }
+
+.button--store {
+  display: inline-block;
+  margin: 0 10px;
+  width: 135px; }
+
+.button__image {
+  width: 100%; }

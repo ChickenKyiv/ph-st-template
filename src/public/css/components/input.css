@@ -1,0 +1,78 @@
+.input {
+  border: none;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 11px;
+  color: white; }
+  .wf-montserrat-n4-active .input {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .input::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    transition: opacity 0.3s ease, text-indent 0.3s ease; }
+    .wf-montserrat-n4-active .input::-webkit-input-placeholder {
+      font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .input:-moz-placeholder {
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    transition: opacity 0.3s ease, text-indent 0.3s ease; }
+    .wf-montserrat-n4-active .input:-moz-placeholder {
+      font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .input::-moz-placeholder {
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    transition: opacity 0.3s ease, text-indent 0.3s ease; }
+    .wf-montserrat-n4-active .input::-moz-placeholder {
+      font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .input:-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    transition: opacity 0.3s ease, text-indent 0.3s ease; }
+    .wf-montserrat-n4-active .input:-ms-input-placeholder {
+      font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .input:focus::-webkit-input-placeholder {
+    text-indent: 3%;
+    opacity: 0; }
+  .input:focus:-moz-placeholder {
+    text-indent: 3%;
+    opacity: 0; }
+  .input:focus::-moz-placeholder {
+    text-indent: 3%;
+    opacity: 0; }
+  .input:focus:-ms-input-placeholder {
+    text-indent: 3%;
+    opacity: 0; }
+  .input--small {
+    height: 32px; }
+  .input--gray-border {
+    border: 1px solid rgba(188, 198, 208, 0.2); }
+  .input--black-placeholder, .input--white, .input--snow {
+    color: #242526; }
+    .input--black-placeholder::-webkit-input-placeholder, .input--white::-webkit-input-placeholder, .input--snow::-webkit-input-placeholder {
+      color: #242526; }
+    .input--black-placeholder:-moz-placeholder, .input--white:-moz-placeholder, .input--snow:-moz-placeholder {
+      color: #242526; }
+    .input--black-placeholder::-moz-placeholder, .input--white::-moz-placeholder, .input--snow::-moz-placeholder {
+      color: #242526; }
+    .input--black-placeholder:-ms-input-placeholder, .input--white:-ms-input-placeholder, .input--snow:-ms-input-placeholder {
+      color: #242526; }
+  .input--black {
+    background-color: rgba(36, 37, 38, 0.3); }
+  .input--dark {
+    background-color: rgba(36, 37, 38, 0.6); }
+  .input--death {
+    background-color: rgba(0, 0, 0, 0.7); }
+  .input--gray {
+    background-color: rgba(182, 193, 204, 0.2); }
+  .input--light {
+    background-color: rgba(116, 116, 116, 0.1); }
+  .input--white {
+    background-color: white; }
+  .input--snow {
+    background-color: rgba(255, 255, 255, 0.6); }

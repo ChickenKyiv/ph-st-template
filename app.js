@@ -18,18 +18,11 @@ app.use(cors({ origin: '*' }));
 app.set('views', path.join(__dirname, './src/templates/'));
 app.set('view engine', 'jade');
 
-//sass
-app.use(sass.middleware({
-    src: "./src/public/css",
-    dest: path.join(__dirname, 'public'),
-    debug: true
-}));
-
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use("/public", express.static(__dirname + "./src/public"));
+app.use(express.static('./src/public/'));
 //app.use(express.static(path.join(__dirname, './src/css/')));
 //app.use(express.static(path.join(__dirname, './src/js/')));
 //app.use(express.static(path.join(__dirname, './src/img/')));

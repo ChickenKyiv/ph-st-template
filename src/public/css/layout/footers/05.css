@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url(../fonts/montserrat/Montserrat-Light.otf);
+  /* IE9 Compat Modes */ }
+
+.footer__main_box--05 {
+  padding: 35px 0;
+  background-color: #242526;
+  border-bottom: 1px solid rgba(188, 198, 208, 0.12); }
+
+.footer__left_box--05 {
+  margin-right: 10%; }
+  @media (min-width: 993px) {
+    .footer__left_box--05 {
+      float: left;
+      margin-bottom: 50px; } }
+  @media (max-width: 992px) {
+    .footer__left_box--05 {
+      margin-bottom: 50px; } }
+
+.footer__logo_box--05 {
+  display: block;
+  margin-bottom: 30px; }
+  @media (max-width: 500px) {
+    .footer__logo_box--05 {
+      margin-bottom: 60px; } }
+
+.footer__logo--05 {
+  margin-right: 10px; }
+
+.footer__description--05 {
+  display: inline-block;
+  max-width: 260px; }
+
+@media (min-width: 993px) {
+  .footer__center_box--05 {
+    float: left; } }
+
+@media (max-width: 992px) {
+  .footer__center_box--05 {
+    margin-bottom: 35px; } }
+
+@media (min-width: 993px) {
+  .footer__menu--05 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 65px; }
+    .footer__menu--05:last-child {
+      margin-right: 0; } }
+
+@media (max-width: 992px) {
+  .footer__menu__item--05 {
+    float: left;
+    margin-right: 20px; } }
+
+@media (min-width: 993px) {
+  .footer__right_box--05 {
+    float: right; } }
+
+.footer__social_text--05 {
+  font-weight: 300;
+  display: block;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.05em; }
+  .wf-montserrat-n3-active .footer__social_text--05 {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  @media (max-width: 992px) {
+    .footer__social_text--05 {
+      display: none; } }
+
+.footer__description_box--05 {
+  padding: 23px 0 25px;
+  background-color: #242526; }

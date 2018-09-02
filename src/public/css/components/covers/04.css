@@ -1,0 +1,46 @@
+.cover__content_box--04 {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  margin: auto;
+  transform: translateY(-40%);
+  top: 50%; }
+
+.cover__container--04 {
+  position: relative;
+  height: 100%; }
+
+.cover__title--04 {
+  max-width: 750px;
+  margin: auto;
+  text-align: center; }
+
+.cover__title_text--04 {
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 0.03em;
+  color: white; }
+  .wf-montserrat-n7-active .cover__title_text--04 {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  @media (max-width: 992px) {
+    .cover__title_text--04 {
+      font-size: 40px; } }
+  @media (max-width: 500px) {
+    .cover__title_text--04 {
+      font-size: 30px; } }
+  @media (max-width: 800px) {
+    .cover__title_text--04 br {
+      display: none; } }
+
+.cover__description_box--04 {
+  margin-top: 50px;
+  text-align: center; }
+
+.cover__description_text--04 {
+  font-weight: 400;
+  display: inline-block;
+  max-width: 350px;
+  color: rgba(255, 255, 255, 0.67);
+  font-size: 17px; }
+  .wf-playfairdisplay-n4-active .cover__description_text--04 {
+    font-family: Playfair Display, Helvetica, Arial, sans-serif; }

@@ -1,0 +1,137 @@
+.menu--02--desktop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  transform: translateY(-100%);
+  opacity: 0;
+  width: 100%;
+  text-align: center;
+  transition: all .4s ease; }
+  .menu--02--desktop.state-opened {
+    transform: none;
+    opacity: 1; }
+
+.menu__list--02--desktop {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto; }
+
+.menu__item--02--desktop {
+  opacity: 0;
+  margin-bottom: 13px;
+  transform: translateY(-5px);
+  transition: all .4s .4s ease-out; }
+  .menu__item--02--desktop:last-child {
+    margin-bottom: 0; }
+  .menu__item--02--desktop:nth-child(1) {
+    transition-delay: 0ms; }
+  .menu__item--02--desktop:nth-child(2) {
+    transition-delay: 100ms; }
+  .menu__item--02--desktop:nth-child(3) {
+    transition-delay: 200ms; }
+  .menu__item--02--desktop:nth-child(4) {
+    transition-delay: 300ms; }
+  .menu__item--02--desktop:nth-child(5) {
+    transition-delay: 400ms; }
+  .menu__item--02--desktop:nth-child(6) {
+    transition-delay: 500ms; }
+  .menu__item--02--desktop:nth-child(7) {
+    transition-delay: 600ms; }
+  .menu__item--02--desktop:nth-child(8) {
+    transition-delay: 700ms; }
+  .menu__item--02--desktop:nth-child(9) {
+    transition-delay: 800ms; }
+  .menu__item--02--desktop:nth-child(10) {
+    transition-delay: 900ms; }
+  .menu__item--02--desktop:nth-child(11) {
+    transition-delay: 1000ms; }
+  .menu__item--02--desktop:nth-child(12) {
+    transition-delay: 1100ms; }
+  .menu__item--02--desktop:nth-child(13) {
+    transition-delay: 1200ms; }
+  .menu__item--02--desktop:nth-child(14) {
+    transition-delay: 1300ms; }
+  .menu__item--02--desktop:nth-child(15) {
+    transition-delay: 1400ms; }
+  .menu__item--02--desktop:nth-child(16) {
+    transition-delay: 1500ms; }
+  .menu__item--02--desktop:nth-child(17) {
+    transition-delay: 1600ms; }
+  .menu__item--02--desktop:nth-child(18) {
+    transition-delay: 1700ms; }
+  .menu__item--02--desktop:nth-child(19) {
+    transition-delay: 1800ms; }
+  .menu__item--02--desktop:nth-child(20) {
+    transition-delay: 1900ms; }
+  .state-opened .menu__item--02--desktop {
+    opacity: 1;
+    transform: none; }
+
+.menu__link--02--desktop {
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.25em; }
+  .wf-montserrat-n7-active .menu__link--02--desktop {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .menu__link--02--desktop:hover, .menu__link--02--desktop:focus, .menu__link--02--desktop:active, .menu__link--02--desktop:visited {
+    text-decoration: none;
+    color: white; }
+  @media (max-width: 500px) {
+    .menu__link--02--desktop {
+      font-size: 15px; } }
+  .menu__link--02--desktop:before, .menu__link--02--desktop:after {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 3px;
+    width: 26px;
+    background-color: white;
+    transition: all .4s ease; }
+  .menu__link--02--desktop:before {
+    left: -52px; }
+  .menu__link--02--desktop:after {
+    right: -52px; }
+  .menu__link--02--desktop.state-active:before, .menu__link--02--desktop.state-active:after, .menu__link--02--desktop:hover:before, .menu__link--02--desktop:hover:after {
+    opacity: 1; }
+
+.menu__footer--02--desktop {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: 0; }
+
+.menu__footer_left_box--02--desktop {
+  float: left; }
+
+.menu__footer_text--02--desktop {
+  font-weight: 400;
+  font-size: 12px;
+  color: white; }
+  .wf-montserrat-n4-active .menu__footer_text--02--desktop {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  @media (max-width: 500px) {
+    .menu__footer_text--02--desktop {
+      font-size: 8px; } }
+
+.menu__footer_right_box--02--desktop {
+  float: right; }
+
+.menu__footer_social--02--desktop {
+  margin-bottom: 45px; }
+  @media (max-width: 500px) {
+    .menu__footer_social--02--desktop {
+      margin-bottom: 20px; } }

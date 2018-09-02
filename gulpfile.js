@@ -1,17 +1,17 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var size = require('gulp-size'); //shows the size of the entire project or files
-//var autoprefixer = require('gulp-autoprefixer');
-var imagemin = require('gulp-imagemin');
-var pngquant = require('imagemin-pngquant');
-var jade = require('gulp-jade');
-var base64 = require('gulp-base64');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var connect = require('gulp-connect');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const size = require('gulp-size'); //shows the size of the entire project or files
+const imagemin = require('gulp-imagemin');
+const pngquant = require('imagemin-pngquant');
+const jade = require('gulp-jade');
+const base64 = require('gulp-base64');
+const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
+const connect = require('gulp-connect');
+const autoprefixer = require('gulp-autoprefixer');
 
 //gulp stuff (no watch breaking on errors)
-var plumber = require('gulp-plumber');
+const plumber = require('gulp-plumber');
 
 // css
 gulp.task('css', function() {
@@ -27,10 +27,10 @@ gulp.task('css', function() {
 			//maxImageSize: 8*1024, // bytes
 			//debug: true
 		}))
-		//.pipe(autoprefixer({
-        //  browsers: ['> 0%'],
-        //  cascade: false
-		//}))
+		.pipe(autoprefixer({
+          browsers: ['> 0%'],
+          cascade: false
+		}))
 		.pipe(size())
 		.pipe(gulp.dest('build/css'));
 });

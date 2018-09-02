@@ -1,0 +1,11 @@
+// 1.09
+Local development version created using Express. gulpfile and package.json are up to date. Bower components replaced by node modules in main.scss
+
+[new folders & files]: www, routes, controllers, app.js
+
+Bugs:
+[fixed][autoprefixer: postcss] CssSyntaxError Unclosed string for valid strings
+[fixed][scss: precss] imports issues 
+
+ToDo:
+ * add sass hot reload 
