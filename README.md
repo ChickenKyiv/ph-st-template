@@ -30,7 +30,7 @@ Local server is created using Express.js and HTTP server
 **bin** --> [`www`][www] (local HTTP server setup)
 
 
-**build** --> . (statics version of website)
+**build** --> . (static version of website)
 
 
 **controllers** --> [`error.js`][error] (error handlers)
@@ -41,7 +41,7 @@ Local server is created using Express.js and HTTP server
 
 **src** --> css --> . (scss files)
 
-**src** --> public --> . (static public fils: img, js, compiled css)
+**src** --> public --> . (static public files: img, js, compiled css)
     
 **src** --> templates --> . (jade templates)
     
