@@ -21,7 +21,7 @@
     "gulp-postcss": "^7.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-size": "^2.1.0",
+    "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-svgmin": "^1.2.0",
     "gulp-uglify": "^3.0.0",
@@ -33,7 +33,7 @@
     "gulp-babel": "^7.0.0",
     "gulp-imagemin": "^3.3.0",
     "gulp-sass": "^3.1.0",
-    "gulp-size": "^2.1.0",
+    "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-watch": "^4.3.3",
     "imagemin-pngquant": "^5.0.1"
