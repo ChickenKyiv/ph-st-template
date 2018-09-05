@@ -6,7 +6,7 @@
 )](http://expressjs.com/fr/)
 [![Gulp](https://img.shields.io/badge/gulp-3.9.1-d4444a.svg?longCache=true&style=flat-square
 )](https://gulpjs.com/)
-[![Maintainability](https://api.codeclimate.com/v1/badges/711addf5449aca60002c/maintainability)](https://codeclimate.com/github/akinariobi/ph-st-template/maintainability)
+
 
 Template from: https://phoenix-startup.com/
 
@@ -30,7 +30,7 @@ Local server is created using Express.js and HTTP server
 **bin** --> [`www`][www] (local HTTP server setup)
 
 
-**build** --> . (statics version of website)
+**build** --> . (static version of website)
 
 
 **controllers** --> [`error.js`][error] (error handlers)
@@ -41,7 +41,7 @@ Local server is created using Express.js and HTTP server
 
 **src** --> css --> . (scss files)
 
-**src** --> public --> . (static public fils: img, js, compiled css)
+**src** --> public --> . (static public files: img, js, compiled css)
     
 **src** --> templates --> . (jade templates)
     
