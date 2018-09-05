@@ -1,6 +1,8 @@
 @import "../../abstracts/mixins.scss";
-@import "../../abstracts/variables.scss";
+@import "../../abstracts/fonts.scss";
 @import "../../abstracts/icons.scss";
+@import "../../abstracts/variables.scss";
+
 
 .features{
 }
@@ -40,7 +42,7 @@
 	border-radius: 50%;
 	
 	&:before{
-		content: '';
+		content: "";
 		position: absolute;
 		left: 0;
 		right: 0;
@@ -269,7 +271,7 @@
 	text-decoration: none;
 
 	&:before{
-		content: '';
+		content: "";
 		position: absolute;
 
 		left: 0;

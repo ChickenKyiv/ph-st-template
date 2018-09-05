@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
 .prices {
   padding: 60px 0 110px; }
   @media (max-width: 500px) {
@@ -83,7 +89,7 @@
   .prices__item__features_list__item:last-child {
     margin-bottom: 0; }
   .prices__item__features_list__item:before {
-    content: '';
+    content: "";
     position: absolute;
     left: -20px;
     bottom: 0;

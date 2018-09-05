@@ -1,5 +1,9 @@
 @import "../../abstracts/mixins.scss";
+@import "../../abstracts/fonts.scss";
+@import "../../abstracts/icons.scss";
 @import "../../abstracts/variables.scss";
+
+
 .features--06{
 	padding-top: 100px;
 	padding-bottom: 65px;
@@ -17,7 +21,7 @@
 		text-align: left;
 
 		&:before{
-			content: '';
+			content: "";
 			position: absolute;
 
 			height: 100%;

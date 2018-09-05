@@ -1,5 +1,8 @@
 @import "../abstracts/mixins.scss";
+@import "../abstracts/fonts.scss";
+@import "../abstracts/icons.scss";
 @import "../abstracts/variables.scss";
+
 
 *{
 	box-sizing: border-box;
@@ -15,20 +18,18 @@ body{
 	font-family: Helvetica, Arial, sans-serif;
 
 	color: $steel;
-    
+
 	@include font_loader($montserrat, 4, 'n');
 
 	&.state-fixed{
 		overflow: hidden;
 	}
 }
-
 a{
 	&, &:hover, &:focus{
 		color: inherit;
 	}
 }
-
 button{
 	padding: 0;
 	margin: 0;

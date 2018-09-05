@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6394,8 +6400,8 @@ a.text-dark:hover, a.text-dark:focus {
   width: 46px;
   border-radius: 50%;
   transition: background-color 0.4s ease, box-shadow 0.4s ease; }
-  .cover__slider__arrow::before, .cover__slider__arrow::after {
-    content: '';
+  .cover__slider__arrow:before, .cover__slider__arrow:after {
+    content: "";
     position: absolute;
     left: 0;
     right: 0;
@@ -6403,21 +6409,21 @@ a.text-dark:hover, a.text-dark:focus {
     top: 0;
     margin: auto;
     transition: opacity .4s ease; }
-  .cover__slider__arrow::after {
+  .cover__slider__arrow:after {
     opacity: 0; }
   .cover__slider__arrow:hover {
     box-shadow: 1px 1.7px 15px rgba(188, 198, 208, 0.3); }
-    .cover__slider__arrow:hover::before {
+    .cover__slider__arrow:hover:before {
       opacity: 0; }
-    .cover__slider__arrow:hover::after {
+    .cover__slider__arrow:hover:after {
       opacity: 1; }
   .cover__slider__arrow--left {
     left: 15px; }
     .cover__slider__arrow--left:hover {
       background-color: white; }
-    .cover__slider__arrow--left::before {
+    .cover__slider__arrow--left:before {
       background: url(../img/icons/i--arrow--circle--white--left.svg) no-repeat center/100% auto; }
-    .cover__slider__arrow--left::after {
+    .cover__slider__arrow--left:after {
       height: 13px;
       width: 8px;
       background: url(../img/icons/i--arrow--circle--black--left--hover.svg) no-repeat center/100% auto;
@@ -6426,9 +6432,9 @@ a.text-dark:hover, a.text-dark:focus {
     right: 15px; }
     .cover__slider__arrow--right:hover {
       background-color: white; }
-    .cover__slider__arrow--right::before {
+    .cover__slider__arrow--right:before {
       background: url(../img/icons/i--arrow--circle--white--right.svg) no-repeat center/100% auto; }
-    .cover__slider__arrow--right::after {
+    .cover__slider__arrow--right:after {
       height: 13px;
       width: 8px;
       background: url(../img/icons/i--arrow--circle--black--right--hover.svg) no-repeat center/100% auto;

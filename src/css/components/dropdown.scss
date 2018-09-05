@@ -1,4 +1,6 @@
 @import "../abstracts/mixins.scss";
+@import "../abstracts/fonts.scss";
+@import "../abstracts/icons.scss";
 @import "../abstracts/variables.scss";
 
 .dropdown{
@@ -57,7 +59,7 @@
 
 	&.state-active{
 		&:before{
-			content: '';
+			content: "";
 			position: absolute;
 			left: 15px;
 			top: 0;
@@ -86,7 +88,7 @@
 	text-align: left;
 
 	&:before{
-		content: '';
+		content: "";
 		position: absolute;
 		left: 13px;
 		bottom: 0;

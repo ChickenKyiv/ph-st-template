@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
 .menu {
   position: fixed;
   overflow: auto;
@@ -43,7 +49,7 @@
   .wf-montserrat-n4-active .menu__closer {
     font-family: Montserrat, Helvetica, Arial, sans-serif; }
   .menu__closer:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     bottom: 0;
@@ -77,7 +83,7 @@
   padding-bottom: 20px;
   border-bottom: 2px solid white; }
   .menu__list:after {
-    content: ' ';
+    content: " ";
     /* Older browser do not support empty content */
     visibility: hidden;
     display: block;
@@ -111,7 +117,7 @@
   padding-left: 30px;
   position: relative; }
   .menu__phone_link:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     bottom: 0;

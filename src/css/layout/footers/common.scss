@@ -1,7 +1,7 @@
-@import "../../abstracts/variables.scss";
-@import "../../abstracts/icons.scss";
 @import "../../abstracts/mixins.scss";
 @import "../../abstracts/fonts.scss";
+@import "../../abstracts/icons.scss";
+@import "../../abstracts/variables.scss";
 
 .footer__container{
 	position: relative;
@@ -13,6 +13,9 @@
 		right: $container_side_margin;
 	}
 }
+
+
+
 .footer__nav{
 	@include clear_list;
 }

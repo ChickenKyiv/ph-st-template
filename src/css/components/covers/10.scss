@@ -1,7 +1,10 @@
-//10 cover specific styles
 @import "../../abstracts/mixins.scss";
+@import "../../abstracts/fonts.scss";
+@import "../../abstracts/icons.scss";
 @import "../../abstracts/variables.scss";
 
+
+//10 cover specific styles
 .cover--10{
 	overflow: hidden; //to crop the ipad pic
 

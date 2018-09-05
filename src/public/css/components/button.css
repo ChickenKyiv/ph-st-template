@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
 .button {
   font-weight: 700;
   display: inline-block;
@@ -67,7 +73,7 @@
     padding-left: 25px;
     position: relative; }
     .button--icon-apple:before, .button--icon-apple--black:before, .button--icon-apple:after, .button--icon-apple--black:after {
-      content: '';
+      content: "";
       position: absolute;
       left: 22px;
       bottom: 0;
@@ -128,7 +134,7 @@
     .button--arrow-down:hover {
       transform: translateY(3px); }
     .button--arrow-down:before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       right: 0;
@@ -145,7 +151,7 @@
   .button--play-icon {
     position: relative; }
     .button--play-icon:before {
-      content: '';
+      content: "";
       position: absolute;
       left: 6px;
       right: 0;

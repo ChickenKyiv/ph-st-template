@@ -1,8 +1,10 @@
-//16 cover specific styles
 @import "../../abstracts/mixins.scss";
+@import "../../abstracts/fonts.scss";
+@import "../../abstracts/icons.scss";
 @import "../../abstracts/variables.scss";
 @import "../../../../node_modules/bootstrap-scss/bootstrap.scss";
 
+//16 cover specific styles
 .cover--16{
 	overflow: hidden;
 
@@ -113,7 +115,6 @@
 
 	background-color: white;
 }
-
 .cover__footer_left_box--16{
 	@extend .container;
 }

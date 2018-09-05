@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
 .popup {
   display: none;
   padding: 33px 50px;
@@ -33,7 +39,7 @@
   width: 15px;
   height: 15px; }
   .popup__close_btn:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     right: 0;

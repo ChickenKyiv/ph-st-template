@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
 .features__item {
   text-align: center; }
 
@@ -27,7 +33,7 @@
   background-color: #1b8bf9;
   border-radius: 50%; }
   .features__item_icon_circle:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     right: 0;
@@ -143,7 +149,7 @@
   .wf-montserrat-n7-active .features__item_link {
     font-family: Montserrat, Helvetica, Arial, sans-serif; }
   .features__item_link:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     right: 0;

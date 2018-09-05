@@ -1,8 +1,10 @@
-//common styles for all covers
 @import "../../abstracts/mixins.scss";
+@import "../../abstracts/fonts.scss";
+@import "../../abstracts/icons.scss";
 @import "../../abstracts/variables.scss";
 @import "../../../../node_modules/bootstrap-scss/bootstrap.scss";
 
+//common styles for all covers
 .cover{
 	position: relative; //keeps menu
 	height: 100vh;
@@ -101,9 +103,9 @@
 
 	transition: background-color 0.4s ease, box-shadow 0.4s ease;
 
-	&::before,
-	&::after{
-		content: '';
+	&:before,
+	&:after{
+		content: "";
 		position: absolute;
 		left: 0;
 		right: 0;
@@ -115,15 +117,15 @@
 		transition: opacity .4s ease;
 	}
 
-	&::after{
+	&:after{
 		opacity: 0;
 	}
 
 	&:hover{
-		&::before{
+		&:before{
 			opacity: 0;
 		}
-		&::after{
+		&:after{
 			opacity: 1;
 		}
 
@@ -137,10 +139,10 @@
 			background-color: white;
 		}
 
-		&::before{
+		&:before{
 			background: url(#{$icons_path}i--arrow--circle--white--left.svg) no-repeat center / 100% auto;
 		}
-		&::after{
+		&:after{
 			height: 13px;
 			width: 8px;
 
@@ -156,10 +158,10 @@
 			background-color: white;
 		}
 
-		&::before{
+		&:before{
 			background: url(#{$icons_path}i--arrow--circle--white--right.svg) no-repeat center / 100% auto;
 		}
-		&::after{
+		&:after{
 			height: 13px;
 			width: 8px;
 

@@ -1,3 +1,5 @@
+
+
 // == START OF PHOENIX JS ==
 window.addEventListener('DOMContentLoaded', function (){
 	'use strict';
@@ -224,7 +226,7 @@ window.addEventListener('DOMContentLoaded', function (){
 
 			function scrollToTop(burger) {
 				try{
-					var scrollValue = $(burger).parents('.js-cover').offset().top;
+					var scrollValue = $(burger).parents('.js-cover').offset();//.top;
 					$('html,body').animate({scrollTop: scrollValue}, 400);
 				}catch(e){
 					console.log(e);

@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Montserrat';
   font-weight: 300;
-  src: url(../fonts/montserrat/Montserrat-Light.otf);
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
   /* IE9 Compat Modes */ }
 
 .header {
@@ -21,7 +21,7 @@
   line-height: 42px;
   text-align: center; }
   .header__container:after {
-    content: ' ';
+    content: " ";
     /* Older browser do not support empty content */
     visibility: hidden;
     display: block;
@@ -112,7 +112,7 @@
   .wf-montserrat-n7-active .header__menu_link {
     font-family: Montserrat, Helvetica, Arial, sans-serif; }
   .header__menu_link:before {
-    content: '';
+    content: "";
     position: absolute;
     width: 0;
     height: 2px;
@@ -145,7 +145,7 @@
   color: white;
   line-height: 42px; }
   .header__location_dropdown_opener:before {
-    content: '';
+    content: "";
     position: absolute;
     left: -12px;
     bottom: 0;
@@ -175,7 +175,7 @@
   .header__right_box .header__burger_button {
     margin-left: 30px; }
   .header__burger_button:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     right: 0;
@@ -213,7 +213,7 @@
   top: 56%;
   transform: translateY(-50%); }
   .header__search_button:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     right: 0;
@@ -230,7 +230,7 @@
   border: 1px solid #242526;
   transition: background-color 0.4s ease; }
   .header__cart_button:before, .header__cart_button:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     right: 0;

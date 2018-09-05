@@ -1,4 +1,6 @@
 @import "../../abstracts/mixins.scss";
+@import "../../abstracts/fonts.scss";
+@import "../../abstracts/icons.scss";
 @import "../../abstracts/variables.scss";
 
 $_menu_left_margin: 50px;
@@ -57,7 +59,7 @@ $_menu_left_margin: 50px;
 	font-size: 14px;
 
 	&:before{
-		content: '';
+		content: "";
 		position: absolute;
 		left: 0;
 		bottom: 0;
@@ -125,7 +127,7 @@ $_menu_left_margin: 50px;
 	position: relative;
 
 	&:before{
-		content: '';
+		content: "";
 		position: absolute;
 		left: 0;
 		bottom: 0;

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
 .features--06 {
   padding-top: 100px;
   padding-bottom: 65px;
@@ -12,7 +18,7 @@
       position: relative;
       text-align: left; }
       .features--06:before {
-        content: '';
+        content: "";
         position: absolute;
         height: 100%;
         width: 100%;
