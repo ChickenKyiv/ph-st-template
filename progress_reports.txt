@@ -1,0 +1,25 @@
+// 1.09
+Local development version created using Express, Morgan, HTTP server and Node SASS. gulpfile and package.json are up to date. Bower components replaced by node modules.
+
+[new folders & files]: www, routes, controllers, app.js
+
+Bugs:
+[fixed][autoprefixer: postcss] CssSyntaxError Unclosed string for valid strings
+[fixed][scss: precss] imports issues 
+
+toDo:
+    * add sass hot reload 
+    * fix sass bugs for "footer footer--05" and "cover cover--16"
+    * fix responsive navbars
+ 
+ // 5.09
+ 
+ Bugs:
+ [fixed][slick-carousel]: slick carousel is not working
+ [fixed][webfontsloader]: fonts are not properly loaded
+ [fixed][jQuery]: jQuery doesn't works on client
+ [fixed][jQuery]: fix responsive navbars
+ [fixed][scss float issue]: fix sass bugs for "footer footer--05" and "cover cover--16"
+ 
+ toDo:
+    * create webpage prototype

@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
+.social {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.social__item {
+  display: inline-block; }
+  .social__item--equal_margin {
+    margin-left: 7.5px;
+    margin-right: 7.5px; }
+  .social__item--left_margin {
+    margin-left: 15px; }
+    .social__item--left_margin:first-child {
+      margin-left: 0; }
+
+.social__link {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle; }
+  .social__link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0; }
+  .social__link--twitter, .social__link--twitter--black {
+    width: 14px;
+    height: 12px; }
+    .social__link--twitter:before, .social__link--twitter--black:before {
+      background: url(../img/icons/i--twitter--white.svg) no-repeat center/14px 12px; }
+  .social__link--twitter--black:before {
+    background: url(../img/icons/i--twitter--black.svg) no-repeat center/14px 12px; }
+  .social__link--facebook, .social__link--facebook--black {
+    width: 6px;
+    height: 12px; }
+    .social__link--facebook:before, .social__link--facebook--black:before {
+      background: url(../img/icons/i--facebook--white.svg) no-repeat center/6px 12px; }
+  .social__link--facebook--black:before {
+    background: url(../img/icons/i--facebook--black.svg) no-repeat center/6px 12px; }
+  .social__link--g_plus, .social__link--g_plus--black {
+    width: 16px;
+    height: 10px; }
+    .social__link--g_plus:before, .social__link--g_plus--black:before {
+      background: url(../img/icons/i--g_plus--white.svg) no-repeat center/16px 10px; }
+  .social__link--g_plus--black:before {
+    background: url(../img/icons/i--g_plus--black.svg) no-repeat center/16px 10px; }
+  .social__link--tumblr, .social__link--tumblr--black {
+    width: 6px;
+    height: 10px; }
+    .social__link--tumblr:before, .social__link--tumblr--black:before {
+      background: url(../img/icons/i--tumblr--white.svg) no-repeat center/6px 10px; }
+  .social__link--tumblr--black:before {
+    background: url(../img/icons/i--tumblr--black.svg) no-repeat center/6px 10px; }
+  .social__link--pinterest, .social__link--pinterest--black {
+    width: 9px;
+    height: 11px; }
+    .social__link--pinterest:before, .social__link--pinterest--black:before {
+      background: url(../img/icons/i--pinterest--white.svg) no-repeat center/9px 11px; }
+  .social__link--pinterest--black:before {
+    background: url(../img/icons/i--pinterest--black.svg) no-repeat center/9px 11px; }
+  .social__link--linkedin, .social__link--linkedin--black {
+    width: 11px;
+    height: 10px; }
+    .social__link--linkedin:before, .social__link--linkedin--black:before {
+      background: url(../img/icons/i--linkedin--white.svg) no-repeat center/11px 10px; }
+  .social__link--linkedin--black:before {
+    background: url(../img/icons/i--linkedin--black.svg) no-repeat center/11px 10px; }
+  .social__link--behance, .social__link--behance--black {
+    width: 13px;
+    height: 11px; }
+    .social__link--behance:before, .social__link--behance--black:before {
+      background: url(../img/icons/i--behance--white.svg) no-repeat center/13px 11px; }
+  .social__link--behance--black:before {
+    background: url(../img/icons/i--behance--black.svg) no-repeat center/13px 11px; }
+  .social__link--dribbble, .social__link--dribbble--black {
+    width: 13px;
+    height: 13px; }
+    .social__link--dribbble:before, .social__link--dribbble--black:before {
+      background: url(../img/icons/i--dribbble--white.svg) no-repeat center/13px 13px; }
+  .social__link--dribbble--black:before {
+    background: url(../img/icons/i--dribbble--black.svg) no-repeat center/13px 13px; }
+  .social__link--rounded {
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    border: white 1px solid;
+    border-radius: 50%;
+    transition: opacity .4s ease;
+    opacity: 0.7; }
+    .social__link--rounded:hover {
+      opacity: 1; }

@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
+.menu {
+  position: fixed;
+  overflow: auto;
+  right: -100%;
+  top: 0;
+  z-index: 300;
+  width: 30%;
+  height: 100%;
+  min-width: 320px;
+  padding-bottom: 30px;
+  background-color: #1b8bf9;
+  transition: right 0.7s ease; }
+  .menu.state-opened {
+    right: 0; }
+  @media (max-width: 500px) {
+    .menu {
+      transition-duration: 0.4s; } }
+
+.menu__box {
+  padding-left: 50px;
+  padding-right: 50px; }
+  @media (max-width: 500px) {
+    .menu__box {
+      margin-top: 40px;
+      padding-left: 15px;
+      padding-right: 15px; } }
+  @media (min-width: 501px) {
+    .menu__box {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%); } }
+
+.menu__closer {
+  font-weight: 400;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  margin: 0 0 0 50px;
+  padding-left: 30px;
+  color: white;
+  font-size: 14px; }
+  .wf-montserrat-n4-active .menu__closer {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .menu__closer:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 15px;
+    background: url(../img/icons/i--cross--white.svg) no-repeat center/100% auto; }
+  @media (max-width: 1600px) {
+    .menu__closer {
+      right: 15px; } }
+  @media (max-width: 500px) {
+    .menu__closer {
+      top: 40px; } }
+
+.menu__title {
+  font-weight: 700;
+  margin: 0 0 20px;
+  color: white;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+  font-size: 10px; }
+  .wf-montserrat-n7-active .menu__title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+
+.menu__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  margin-left: 0;
+  margin-bottom: 44px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white; }
+  .menu__list:after {
+    content: " ";
+    /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+  @media (max-width: 992px) {
+    .menu__list {
+      display: block; } }
+
+.menu__item {
+  margin-bottom: 20px; }
+
+.menu__link,
+.menu__phone_link {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em; }
+  .wf-montserrat-n7-active .menu__link, .wf-montserrat-n7-active
+  .menu__phone_link {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .menu__link, .menu__link:hover, .menu__link:focus,
+  .menu__phone_link,
+  .menu__phone_link:hover,
+  .menu__phone_link:focus {
+    color: white;
+    text-decoration: none; }
+
+.menu__phone_link {
+  display: block;
+  margin: 0 0 50px 0;
+  padding-left: 30px;
+  position: relative; }
+  .menu__phone_link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 20px;
+    background: url(../img/icons/i--phone-call.svg) no-repeat center/100% auto; }
+
+.menu__about_text {
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.4;
+  width: 80%; }
+  .wf-montserrat-n4-active .menu__about_text {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }

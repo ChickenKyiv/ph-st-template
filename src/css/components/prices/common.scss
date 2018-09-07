@@ -1,3 +1,9 @@
+@import "../../abstracts/mixins.scss";
+@import "../../abstracts/fonts.scss";
+@import "../../abstracts/icons.scss";
+@import "../../abstracts/variables.scss";
+
+
 $_one_row_prices: 'max-width: 750px';
 .prices{
 	padding: 60px 0 110px;

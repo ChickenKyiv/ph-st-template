@@ -1,3 +1,8 @@
+@import "../abstracts/mixins.scss";
+@import "../abstracts/fonts.scss";
+@import "../abstracts/icons.scss";
+@import "../abstracts/variables.scss";
+
 // START OF: common popup styles =====
 .popup{
 	//centering with translate(-50%,-50%) causes blur, so using hardcoded height/width value.

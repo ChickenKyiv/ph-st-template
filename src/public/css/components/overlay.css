@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
+.overlay {
+  height: 0;
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(36, 37, 38, 0.6);
+  transition: opacity 0.3s ease;
+  cursor: pointer; }
+  .overlay.state-visible {
+    opacity: 1;
+    height: 100%; }

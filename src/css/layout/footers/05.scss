@@ -1,8 +1,23 @@
+@import "../../abstracts/mixins.scss";
+@import "../../abstracts/fonts.scss";
+@import "../../abstracts/icons.scss";
+@import "../../abstracts/variables.scss";
+
+@import "common.scss";
+
 .footer__main_box--05{
 	padding: 35px 0;
-
 	background-color: $steel;
 	border-bottom: 1px solid rgba($cloud, 0.12);
+    height: 200px;
+    
+    @media (max-width: 992px){
+		height: 300px;
+	}
+    
+    @media (max-width: 768px) {
+        height: 400px
+    }
 }
 .footer__left_box--05{
 	margin-right: 10%;
@@ -80,7 +95,12 @@
 	}
 }
 .footer__description_box--05{
-	padding: 23px 0 25px;
-
+	padding: 23px 25px;
+    height: 100%;
+    //padding-top: 100px;
 	background-color: $steel;
+    
+    //@media (#{$max_tablets}) {
+    //    margin-top: 0;
+    //}
 }

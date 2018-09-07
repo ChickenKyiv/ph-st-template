@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
+* {
+  box-sizing: border-box;
+  font-weight: 400; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #242526;
+  font-weight: 400; }
+  .wf-montserrat-n4-active body {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  body.state-fixed {
+    overflow: hidden; }
+
+a, a:hover, a:focus {
+  color: inherit; }
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none; }
+
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none; }

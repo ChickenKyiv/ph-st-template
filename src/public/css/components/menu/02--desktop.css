@@ -1,0 +1,279 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
+.menu {
+  position: fixed;
+  overflow: auto;
+  right: -100%;
+  top: 0;
+  z-index: 300;
+  width: 30%;
+  height: 100%;
+  min-width: 320px;
+  padding-bottom: 30px;
+  background-color: #1b8bf9;
+  transition: right 0.7s ease; }
+  .menu.state-opened {
+    right: 0; }
+  @media (max-width: 500px) {
+    .menu {
+      transition-duration: 0.4s; } }
+
+.menu__box {
+  padding-left: 50px;
+  padding-right: 50px; }
+  @media (max-width: 500px) {
+    .menu__box {
+      margin-top: 40px;
+      padding-left: 15px;
+      padding-right: 15px; } }
+  @media (min-width: 501px) {
+    .menu__box {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%); } }
+
+.menu__closer {
+  font-weight: 400;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  margin: 0 0 0 50px;
+  padding-left: 30px;
+  color: white;
+  font-size: 14px; }
+  .wf-montserrat-n4-active .menu__closer {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .menu__closer:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 15px;
+    background: url(../img/icons/i--cross--white.svg) no-repeat center/100% auto; }
+  @media (max-width: 1600px) {
+    .menu__closer {
+      right: 15px; } }
+  @media (max-width: 500px) {
+    .menu__closer {
+      top: 40px; } }
+
+.menu__title {
+  font-weight: 700;
+  margin: 0 0 20px;
+  color: white;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+  font-size: 10px; }
+  .wf-montserrat-n7-active .menu__title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+
+.menu__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  margin-left: 0;
+  margin-bottom: 44px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white; }
+  .menu__list:after {
+    content: " ";
+    /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+  @media (max-width: 992px) {
+    .menu__list {
+      display: block; } }
+
+.menu__item {
+  margin-bottom: 20px; }
+
+.menu__link,
+.menu__phone_link {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em; }
+  .wf-montserrat-n7-active .menu__link, .wf-montserrat-n7-active
+  .menu__phone_link {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .menu__link, .menu__link:hover, .menu__link:focus,
+  .menu__phone_link,
+  .menu__phone_link:hover,
+  .menu__phone_link:focus {
+    color: white;
+    text-decoration: none; }
+
+.menu__phone_link {
+  display: block;
+  margin: 0 0 50px 0;
+  padding-left: 30px;
+  position: relative; }
+  .menu__phone_link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 20px;
+    background: url(../img/icons/i--phone-call.svg) no-repeat center/100% auto; }
+
+.menu__about_text {
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.4;
+  width: 80%; }
+  .wf-montserrat-n4-active .menu__about_text {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+
+.menu--02--desktop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  transform: translateY(-100%);
+  opacity: 0;
+  width: 100%;
+  text-align: center;
+  transition: all .4s ease; }
+  .menu--02--desktop.state-opened {
+    transform: none;
+    opacity: 1; }
+
+.menu__list--02--desktop {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto; }
+
+.menu__item--02--desktop {
+  opacity: 0;
+  margin-bottom: 13px;
+  transform: translateY(-5px);
+  transition: all .4s .4s ease-out; }
+  .menu__item--02--desktop:last-child {
+    margin-bottom: 0; }
+  .menu__item--02--desktop:nth-child(1) {
+    transition-delay: 0ms; }
+  .menu__item--02--desktop:nth-child(2) {
+    transition-delay: 100ms; }
+  .menu__item--02--desktop:nth-child(3) {
+    transition-delay: 200ms; }
+  .menu__item--02--desktop:nth-child(4) {
+    transition-delay: 300ms; }
+  .menu__item--02--desktop:nth-child(5) {
+    transition-delay: 400ms; }
+  .menu__item--02--desktop:nth-child(6) {
+    transition-delay: 500ms; }
+  .menu__item--02--desktop:nth-child(7) {
+    transition-delay: 600ms; }
+  .menu__item--02--desktop:nth-child(8) {
+    transition-delay: 700ms; }
+  .menu__item--02--desktop:nth-child(9) {
+    transition-delay: 800ms; }
+  .menu__item--02--desktop:nth-child(10) {
+    transition-delay: 900ms; }
+  .menu__item--02--desktop:nth-child(11) {
+    transition-delay: 1000ms; }
+  .menu__item--02--desktop:nth-child(12) {
+    transition-delay: 1100ms; }
+  .menu__item--02--desktop:nth-child(13) {
+    transition-delay: 1200ms; }
+  .menu__item--02--desktop:nth-child(14) {
+    transition-delay: 1300ms; }
+  .menu__item--02--desktop:nth-child(15) {
+    transition-delay: 1400ms; }
+  .menu__item--02--desktop:nth-child(16) {
+    transition-delay: 1500ms; }
+  .menu__item--02--desktop:nth-child(17) {
+    transition-delay: 1600ms; }
+  .menu__item--02--desktop:nth-child(18) {
+    transition-delay: 1700ms; }
+  .menu__item--02--desktop:nth-child(19) {
+    transition-delay: 1800ms; }
+  .menu__item--02--desktop:nth-child(20) {
+    transition-delay: 1900ms; }
+  .state-opened .menu__item--02--desktop {
+    opacity: 1;
+    transform: none; }
+
+.menu__link--02--desktop {
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.25em; }
+  .wf-montserrat-n7-active .menu__link--02--desktop {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .menu__link--02--desktop:hover, .menu__link--02--desktop:focus, .menu__link--02--desktop:active, .menu__link--02--desktop:visited {
+    text-decoration: none;
+    color: white; }
+  @media (max-width: 500px) {
+    .menu__link--02--desktop {
+      font-size: 15px; } }
+  .menu__link--02--desktop:before, .menu__link--02--desktop:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 3px;
+    width: 26px;
+    background-color: white;
+    transition: all .4s ease; }
+  .menu__link--02--desktop:before {
+    left: -52px; }
+  .menu__link--02--desktop:after {
+    right: -52px; }
+  .menu__link--02--desktop.state-active:before, .menu__link--02--desktop.state-active:after, .menu__link--02--desktop:hover:before, .menu__link--02--desktop:hover:after {
+    opacity: 1; }
+
+.menu__footer--02--desktop {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: 0; }
+
+.menu__footer_left_box--02--desktop {
+  float: left; }
+
+.menu__footer_text--02--desktop {
+  font-weight: 400;
+  font-size: 12px;
+  color: white; }
+  .wf-montserrat-n4-active .menu__footer_text--02--desktop {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  @media (max-width: 500px) {
+    .menu__footer_text--02--desktop {
+      font-size: 8px; } }
+
+.menu__footer_right_box--02--desktop {
+  float: right; }
+
+.menu__footer_social--02--desktop {
+  margin-bottom: 45px; }
+  @media (max-width: 500px) {
+    .menu__footer_social--02--desktop {
+      margin-bottom: 20px; } }

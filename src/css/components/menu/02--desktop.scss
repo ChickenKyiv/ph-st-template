@@ -1,3 +1,10 @@
+@import "../../abstracts/mixins.scss";
+@import "../../abstracts/fonts.scss";
+@import "../../abstracts/icons.scss";
+@import "../../abstracts/variables.scss";
+
+@import "common.scss";
+
 .menu--02--desktop{
 	position: fixed;
 	left: 0;

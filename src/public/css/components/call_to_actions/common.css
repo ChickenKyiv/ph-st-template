@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  src: url("../../fonts/Montserrat/Montserrat-Light.ttf");
+  /* IE9 Compat Modes */ }
+
+.call_to_action {
+  padding: 70px 0;
+  margin: 0;
+  border-radius: 0; }
+  .call_to_action--blue {
+    background-color: #1b8bf9; }
+  .call_to_action--black {
+    background-color: #242526; }
+  .call_to_action--gray {
+    background-color: #f6f6f6; }
+  .call_to_action--picture {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #747474; }
+  @media (max-width: 500px) {
+    .call_to_action {
+      padding: 50px 0; } }
+
+.call_to_action__container {
+  position: relative; }
+
+.call_to_action__title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 44px;
+  line-height: 1.3; }
+  .wf-montserrat-n7-active .call_to_action__title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  @media (max-width: 500px) {
+    .call_to_action__title {
+      font-size: 34px; } }
+
+.call_to_action__text {
+  font-weight: 300;
+  display: inline-block;
+  max-width: 480px;
+  margin: auto auto 60px;
+  font-size: 16px;
+  color: #747474; }
+  .wf-montserrat-n3-active .call_to_action__text {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+
+.call_to_action__form {
+  margin: auto; }
+
+.call_to_action__title_text__accent_word {
+  font-weight: 700;
+  font-style: italic; }
+  .wf-playfairdisplay-i7-active .call_to_action__title_text__accent_word {
+    font-family: Playfair Display, Helvetica, Arial, sans-serif; }
+
+.call_to_action__link {
+  font-weight: 400;
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: opacity 0.4s ease; }
+  .wf-montserrat-n4-active .call_to_action__link {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  .call_to_action__link:hover, .call_to_action__link:focus, .call_to_action__link:active, .call_to_action__link:visited {
+    color: white; }
+  .call_to_action__link:hover {
+    opacity: 0.85; }

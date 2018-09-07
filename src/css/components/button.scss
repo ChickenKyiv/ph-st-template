@@ -1,3 +1,8 @@
+@import "../abstracts/mixins.scss";
+@import "../abstracts/fonts.scss";
+@import "../abstracts/icons.scss";
+@import "../abstracts/variables.scss";
+
 .button{
 	@include clear_link;
 	@include font_loader($montserrat, 7, 'n');
