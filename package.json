@@ -43,7 +43,7 @@
     "gulp-sourcemaps": "^2.6.0",
     "gulp-watch": "^4.3.3",
     "imagemin-pngquant": "^5.0.1",
-    "morgan": "^1.9.0",
+    "morgan": "^1.9.1",
     "node-sass": "^4.9.3",
     "path": "^0.12.7",
     "slick-carousel": "^1.8.1"
