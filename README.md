@@ -10,22 +10,24 @@
 
 Template from: https://phoenix-startup.com/
 
-### Run 
+### Run
 
 * `npm run build-css` to build css from sass
 * `npm start`
 * go to localhost:3000
-    
+* `npm run build` to run webpack in prod mode
+* `npm run dev` to run webpack in dev mode  
+
 ##### Gulp Commands
 
 * `gulp main-js`
 * `gulp css`
 * `gulp jade`
 * `gulp compress-img`
-    
+
 Local server is created using Express.js and HTTP server
 
-### Strucure 
+### Strucure
 
 **bin** --> [`www`][www] (local HTTP server setup)
 
@@ -42,13 +44,10 @@ Local server is created using Express.js and HTTP server
 **src** --> css --> . (scss files)
 
 **src** --> public --> . (static public files: img, js, compiled css)
-    
+
 **src** --> templates --> . (jade templates)
-    
-### ToDO
- * add hot reload for sass 
- * replace jade by react components 
- 
+
+
  <!-- Relative Links -->
  [error]: ./controllers/error.js
  [www]: ./bin/www
