@@ -18,7 +18,7 @@
 	@media (#{$max_tablets}){
 		position: relative;
 
-		text-align: left;
+		text-align: center;
 
 		&:before{
 			content: "";
@@ -44,10 +44,11 @@
 	margin-bottom: 90px;
 
 	@media (#{$min_tablets}){
-		text-align: left;
+		text-align: center;
 	}
 }
 .features__title--06{
+
 }
 .features__description--06{
 }
@@ -55,7 +56,7 @@
 	margin-bottom: 85px;
 
 	@media (#{$min_tablets}){
-		text-align: left;
+		text-align: center;
 	}
 }
 .features__item_icon_circle--06{
@@ -76,13 +77,19 @@
 		font-size: 34px;
 	}
 }
+
+.features__row {
+	margin: 0 30px;
+}
+
 .features__item_text--06{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 15px;
+	width: 100%;
 
 	@media (#{$min_tablets}){
-		margin-left: 0;
+		margin-right: 0;
 		width: 90%;
 	}
 }

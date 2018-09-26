@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss src/css/ -o src/public/css/ --watch",
+    "build-css": "node-sass --include-path scss src/css/ -o src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www",
     "build": "webpack --mode production",
