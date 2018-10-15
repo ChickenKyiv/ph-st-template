@@ -10,7 +10,7 @@
   "author": "ui-market.com",
   "license": "",
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
+    "autoprefixer": "^9.2.0",
     "clone": "^2.1.2",
     "gulp": "^4.0.0",
     "gulp-base64": "^0.1.3",
