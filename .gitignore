@@ -19,3 +19,5 @@ node_modules
 npm-debug.log
 bower_components/*
 build/*
+
+package-lock.json
