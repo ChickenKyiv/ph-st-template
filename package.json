@@ -17,7 +17,7 @@
     "gulp-concat": "^2.5.2",
     "gulp-connect": "^5.7.0",
     "gulp-file-include": "^2.0.1",
-    "gulp-imagemin": "^4.1.0",
+    "gulp-imagemin": "^5.0.3",
     "gulp-jade": "^1.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
