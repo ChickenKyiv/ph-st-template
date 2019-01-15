@@ -14,7 +14,7 @@ html
 		script(src="/js/main.js", defer)
 		//page title
 		title
-			| Template
+			| Phoenix Startup UI Kit free version
 	body
 		main.page_wrapper
 			// ____________________________
@@ -33,14 +33,13 @@ html
 			// ____________________________
 
 			// START OF: FREE VERSION COMPONENTS =====
-			//include components/covers/10
-			include components/covers/16
-			include components/features/06
+			include components/covers/10
 			include components/covers/04
-			//include components/prices/02
-			include components/call_to_actions/07
-			
+			include components/features/06
 			include components/footers/05
+			include components/covers/16
+			include components/call_to_actions/07
+			include components/prices/02
 			// ===== END OF: FREE VERSION COMPONENTS
 
 			// == START OF COVER COMPONENTS ==
@@ -62,7 +61,9 @@ html
 			//include components/covers/19
 			//include components/covers/20
 			//include components/covers/21
-	
+				// == END OF COVER COMPONENTS ==
+				// ____________________________
+				// == START OF call_to_action COMPONENTS ==
 			//include components/call_to_actions/01
 			//include components/call_to_actions/02
 			//include components/call_to_actions/03
@@ -165,7 +166,7 @@ html
 			// == END OF PRICE PLANS COMPONENTS ==
 			// ____________________________
 			// == START OF VIDEO POPUP COMPONENT ==
-			//include components/popups/video
+			include components/popups/video
 			// == END OF VIDEO POPUP COMPONENT ==
 			// ____________________________
 			// Never miss free updates and get new breathtaking components first!

@@ -16,7 +16,7 @@
   @media (max-width: 992px) {
     .features--06 {
       position: relative;
-      text-align: left; }
+      text-align: center; }
       .features--06:before {
         content: "";
         position: absolute;
@@ -37,13 +37,13 @@
   margin-bottom: 90px; }
   @media (min-width: 993px) {
     .features__title_box--06 {
-      text-align: left; } }
+      text-align: center; } }
 
 .features__item--06 {
   margin-bottom: 85px; }
   @media (min-width: 993px) {
     .features__item--06 {
-      text-align: left; } }
+      text-align: center; } }
 
 .features__item_icon_circle--06 {
   height: 40px;
@@ -61,11 +61,15 @@
     .features__title--06 {
       font-size: 34px; } }
 
+.features__row {
+  margin: 0 30px; }
+
 .features__item_text--06 {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  width: 100%; }
   @media (min-width: 993px) {
     .features__item_text--06 {
-      margin-left: 0;
+      margin-right: 0;
       width: 90%; } }
