@@ -1,4 +1,4 @@
-# phoenix-startup-template
+# ph-st-template
 
 [![Node](https://img.shields.io/badge/node--version-v10.8.0-green.svg?longCache=true&style=flat-square
 )](https://nodejs.org/en/)
