@@ -1895,10 +1895,10 @@ boom@0.4.x:
   dependencies:
     hoek "0.9.x"
 
-bootstrap-scss@^4.1.3:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/bootstrap-scss/-/bootstrap-scss-4.2.1.tgz#9de57e88d9d627339cc0dc57437eec0ae28e4f3d"
-  integrity sha512-zmOrN6naxkRT2Tbaboo+jDiQUZ4x21/lNJfZrEJhMLNhAtYE7gKxTMV0y1yK8qlRE9PAnm8nnyjo0WPnpT/6fg==
+bootstrap-scss@^4.5.3:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/bootstrap-scss/-/bootstrap-scss-4.5.3.tgz#5a46cd7d3b3efff7ca9d541e70e766d2d1a5b29e"
+  integrity sha512-sWnHNg9oFHGWPOIm5j8WkuSLZVWFbfL4OssNe1rsTADzRhKTNCM8mmeRMhhezz8bu+WjJ9xCuEeTZ2lkxolq6A==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
